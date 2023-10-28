@@ -1,0 +1,2 @@
+/home/stakhovyak/Workspace/University/lab-No2-cpp/CMakeFiles/edit_cache.dir
+/home/stakhovyak/Workspace/University/lab-No2-cpp/CMakeFiles/rebuild_cache.dir

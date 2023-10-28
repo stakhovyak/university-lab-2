@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/polynom_project.dir/main.cpp.o CMakeFiles/polynom_project.dir/polynom.cpp.o "CMakeFiles/polynom_project.dir/polynom-list.cpp.o" -o polynom_project 

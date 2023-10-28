@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Polynom.dir/main.cpp.o -o Polynom 
