@@ -2,6 +2,10 @@
 #include <vector>
 #include "include/polynom-list.h"
 
+PolynomList::PolynomList(){};
+
+PolynomList::~PolynomList(){};
+
 void PolynomList::addNew(const Polynomial &pol) { polynomials.push_back(pol); };
 
 PolynomList &PolynomList::operator+= (const Polynomial &pol)

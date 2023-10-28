@@ -2,6 +2,9 @@
 #include <vector>
 #include "include/polynom.h"
 
+Polynomial::~Polynomial()
+{};    
+
 Polynomial::Polynomial (vector<int> &&coeff, vector<int> &&deg)
     : coefficients { move(coeff) }
     , degrees { move(deg) }
