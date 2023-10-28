@@ -28,3 +28,37 @@ void Polynomial::print() const
   std::cout << std::endl;
 }
 
+// copy constructor
+Polynomial::Polynomial(const Polynomial &src)
+  : coefficients { src.coefficients }
+  , degrees { src.degrees }
+{
+  // if (src.coefficients == nullptr || src.degrees == nullptr)
+  //   throw std::invalid_argument("Invalid source polynomial!");
+}
+
+Polynomial Polynomial::operator+ (const Polynomial &rhs) const 
+{
+  Polynomial result(*this);
+
+  for (int i = 0; i < rhs.degrees.size(); i++) {
+    int degree = rhs.degrees[i];
+    int coefficient = rhs.coefficients[i];
+
+    bool termFound = false;
+    for (int j = 0; j < result.degrees.size(); j++) {
+      if (result.degrees[j] == degree) {
+        result.coefficients[j] += coefficient;
+        termFound = true;
+        break;
+      }
+    }
+
+    if (!termFound) {
+      result.degrees.push_back(degree);
+      result.coefficients.push_back(coefficient);
+    }
+  }
+   
+   return result;
+}

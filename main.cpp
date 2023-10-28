@@ -5,7 +5,7 @@ int main ()
 {
   {
      Polynomial p1 ({10,2,4,6}, {3,2,1,8});
-     Polynomial p2 ({2,1,6,10}, {3,6,7,7});
+     Polynomial p2 ({2,1,6,10}, {1,6,7,7});
 
      PolynomList list;
      list.addNew(p1);
@@ -14,6 +14,10 @@ int main ()
      list.showAll();
 
      p1.print ();
+
+     Polynomial p3;
+     p3 = p1 + p2;
+     p3.print();
   }
 
   return 0;
