@@ -1,6 +1,8 @@
-CMakeFiles/polynom_project.dir/main.cpp.o: \
- /home/stakhovyak/Workspace/University/lab-No2-cpp/main.cpp \
- /usr/include/stdc-predef.h /usr/include/c++/12/iostream \
+CMakeFiles/polynom_project.dir/sum-all.cpp.o: \
+ /home/stakhovyak/Workspace/University/lab-No2-cpp/sum-all.cpp \
+ /usr/include/stdc-predef.h \
+ /home/stakhovyak/Workspace/University/lab-No2-cpp/include/polynom.h \
+ /usr/include/c++/12/iostream \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -147,11 +149,12 @@ CMakeFiles/polynom_project.dir/main.cpp.o: \
  /usr/include/c++/12/bits/locale_facets.tcc \
  /usr/include/c++/12/bits/basic_ios.tcc \
  /usr/include/c++/12/bits/ostream.tcc /usr/include/c++/12/istream \
- /usr/include/c++/12/bits/istream.tcc \
- /home/stakhovyak/Workspace/University/lab-No2-cpp/include/polynom.h \
- /usr/include/c++/12/vector /usr/include/c++/12/bits/stl_uninitialized.h \
+ /usr/include/c++/12/bits/istream.tcc /usr/include/c++/12/vector \
+ /usr/include/c++/12/bits/stl_uninitialized.h \
  /usr/include/c++/12/bits/stl_vector.h \
  /usr/include/c++/12/bits/stl_bvector.h \
  /usr/include/c++/12/bits/vector.tcc \
  /home/stakhovyak/Workspace/University/lab-No2-cpp/include/polynom-list.h \
- /home/stakhovyak/Workspace/University/lab-No2-cpp/include/polynom.h
+ /home/stakhovyak/Workspace/University/lab-No2-cpp/include/polynom.h \
+ /home/stakhovyak/Workspace/University/lab-No2-cpp/include/sum-all.h \
+ /home/stakhovyak/Workspace/University/lab-No2-cpp/include/polynom-list.h

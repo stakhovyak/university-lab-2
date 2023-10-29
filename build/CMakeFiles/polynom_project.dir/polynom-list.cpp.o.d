@@ -147,10 +147,11 @@ CMakeFiles/polynom_project.dir/polynom-list.cpp.o: \
  /usr/include/c++/12/bits/locale_facets.tcc \
  /usr/include/c++/12/bits/basic_ios.tcc \
  /usr/include/c++/12/bits/ostream.tcc /usr/include/c++/12/istream \
- /usr/include/c++/12/bits/istream.tcc /usr/include/c++/12/vector \
- /usr/include/c++/12/bits/stl_uninitialized.h \
+ /usr/include/c++/12/bits/istream.tcc \
+ /home/stakhovyak/Workspace/University/lab-No2-cpp/include/polynom-list.h \
+ /usr/include/c++/12/vector /usr/include/c++/12/bits/stl_uninitialized.h \
  /usr/include/c++/12/bits/stl_vector.h \
  /usr/include/c++/12/bits/stl_bvector.h \
  /usr/include/c++/12/bits/vector.tcc \
- /home/stakhovyak/Workspace/University/lab-No2-cpp/include/polynom-list.h \
+ /home/stakhovyak/Workspace/University/lab-No2-cpp/include/polynom.h \
  /home/stakhovyak/Workspace/University/lab-No2-cpp/include/polynom.h
